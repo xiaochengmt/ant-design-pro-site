@@ -13,7 +13,7 @@ Pro V5 是可以渐进使用的，只要升级到 umi@3 即可使用这些特性
 
 ## initialState
 
-`initialState`  在 v5 中替代了原来的自带 model，`global`,`login`,`setting` 都并入了 initialState 中。我们需要删除 `src/models/global.ts`,`src/models/login.ts`,`src/models/setting.ts` ，并且将请求用户信息和登陆拦截放到 `src/app.tsx` 中。
+`initialState`  在 v5 中替代了原来的自带 model，`global`,`login`,`setting` 都并入了 initialState 中。我们需要删除 `src/models/global.ts`,`src/models/login.ts`,`src/models/setting.ts` ，并且将请求用户信息和登录拦截放到 `src/app.tsx` 中。
 
 我们可以将 `initialState` 理解为一个默认的 model，里面可以将项目中需要的不频繁修改的数据注入。
 
